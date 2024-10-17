@@ -25,20 +25,20 @@ Uma base de conhecimento é um sistema de armazenamento e recuperação de infor
 
 ## Regras de conheciemnto usadas no programa
 
-### Diagnóstico de Diabetes (Versão Expandida)
+### Diagnóstico de Diabetes 
 * SE glicose em jejum > 126 mg/dL ENTÃO suspeita de diabetes.
 * SE glicose em jejum > 126 mg/dL E glicose pós-prandial > 200 mg/dL ENTÃO pré-diagnóstico de diabetes.
 * SE glicose em jejum > 126 mg/dL E glicose pós-prandial > 200 mg/dL E HbA1c > 6,5% ENTÃO diagnóstico de diabetes.
 * SE glicose em jejum entre 100 mg/dL e 125 mg/dL OU HbA1c entre 5,7% e 6,4% ENTÃO pré-diabetes.
 * SE glicose em jejum > 126 mg/dL E sintomas como sede excessiva, micção frequente e perda de peso inexplicada estão presentes ENTÃO diagnóstico de diabetes tipo 2.
 * SE HbA1c > 6,5% E sintomas clínicos estão ausentes E histórico familiar de diabetes é positivo ENTÃO diagnóstico de diabetes, monitorar para possíveis complicações.
-### Diagnóstico de Hipertensão (Versão Expandida)
+### Diagnóstico de Hipertensão 
 * SE pressão arterial sistólica ≥ 140 mmHg OU diastólica ≥ 90 mmHg ENTÃO suspeita de hipertensão.
 * SE pressão arterial sistólica ≥ 140 mmHg OU diastólica ≥ 90 mmHg E pressão permanece elevada em pelo menos duas medições diferentes em dias distintos ENTÃO pré-diagnóstico de hipertensão.
 * SE pressão arterial sistólica ≥ 140 mmHg OU diastólica ≥ 90 mmHg E exames laboratoriais (colesterol, função renal) mostram alterações ENTÃO diagnóstico de hipertensão grau 1.
 * SE pressão arterial sistólica ≥ 160 mmHg OU diastólica ≥ 100 mmHg E sintomas como dores de cabeça frequentes, tonturas e visão turva estão presentes ENTÃO diagnóstico de hipertensão estágio 2.
 * SE hipertensão não controlada E exame de fundo de olho revela alterações vasculares OU sinais de hipertrofia ventricular esquerda no ECG ENTÃO hipertensão estágio 2 com complicações.
-### Diagnóstico de Glaucoma (Versão Expandida)
+### Diagnóstico de Glaucoma 
 * SE pressão intraocular (PIO) > 21 mmHg ENTÃO suspeita de glaucoma.
 * SE PIO > 21 mmHg E há perda de visão periférica OU visão embaçada ENTÃO pré-diagnóstico de glaucoma.
 * SE PIO > 21 mmHg E exame de campo visual mostra perda de visão periférica E exame do nervo óptico revela danos ENTÃO diagnóstico de glaucoma primário de ângulo aberto.
